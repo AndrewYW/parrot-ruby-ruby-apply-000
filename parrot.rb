@@ -2,7 +2,7 @@
 # returns the phrase
 
 def parrot(str)
-  if str == ""
+  if str == "" || str == nil
     puts "Squawk!"
   else
     puts str
